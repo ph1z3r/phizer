@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Research Projects on ph1z3r</title><link>https://yourusername.github.io/portfolio/</link><description>Recent content in Security Research Projects on ph1z3r</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yourusername.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy-2/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy-2/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy-3/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy-3/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy-4/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy-4/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy-5/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy-5/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy-6/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy-6/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1-copy/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1-copy/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>Web Application Vulnerability Scanner</title><link>https://yourusername.github.io/portfolio/project-1/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-1/</guid><description>&lt;h1 id="web-application-vulnerability-scanner">Web Application Vulnerability Scanner&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Comprehensive Coverage&lt;/strong>: Tests for the OWASP Top 10 vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Low False Positives&lt;/strong>: Advanced verification techniques to minimize false positives&lt;/li>
+&lt;li>&lt;strong>Detailed Reporting&lt;/strong>: Generates comprehensive HTML and PDF reports&lt;/li>
+&lt;li>&lt;strong>CI/CD Integration&lt;/strong>: Can be integrated into development pipelines&lt;/li>
+&lt;li>&lt;strong>Customizable Rules&lt;/strong>: Extend with your own vulnerability detection rules&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation&lt;/h2>
+&lt;p>The scanner is built with Python and uses a modular architecture to allow for easy extension. It employs headless browser automation for accurate vulnerability verification and uses a combination of static analysis and dynamic testing.&lt;/p></description></item><item><title>IoT Firmware Security Analysis Framework</title><link>https://yourusername.github.io/portfolio/project-2/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://yourusername.github.io/portfolio/project-2/</guid><description>&lt;h1 id="iot-firmware-security-analysis-framework">IoT Firmware Security Analysis Framework&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This framework provides a comprehensive solution for analyzing IoT device firmware for security vulnerabilities. It automates the extraction, analysis, and reporting process to quickly identify common security issues in embedded systems.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Firmware Extraction&lt;/strong>: Automated extraction of filesystem from various firmware formats&lt;/li>
+&lt;li>&lt;strong>Static Analysis&lt;/strong>: Identification of hardcoded credentials, encryption keys, and vulnerable functions&lt;/li>
+&lt;li>&lt;strong>Dynamic Analysis&lt;/strong>: Emulation environment for runtime testing&lt;/li>
+&lt;li>&lt;strong>Vulnerability Detection&lt;/strong>: Automated detection of common IoT vulnerabilities&lt;/li>
+&lt;li>&lt;strong>Reporting&lt;/strong>: Detailed reports with vulnerability explanations and remediation suggestions&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-details">Technical Details&lt;/h2>
+&lt;p>The framework combines reverse engineering tools with custom analysis scripts to provide deep insights into IoT firmware security. It uses Ghidra for disassembly and decompilation, along with custom Python scripts for vulnerability pattern matching.&lt;/p></description></item></channel></rss>

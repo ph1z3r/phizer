@@ -1,0 +1,106 @@
+/* Premium Effects - Adds glossy and modern styling */
+
+/* Glossy Button Effect for Navigation */
+.nav-button {
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.nav-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.2) 50%, 
+        transparent 100%
+    );
+    transition: left 0.7s ease;
+}
+
+.nav-button:hover::before {
+    left: 100%;
+}
+
+/* Add a subtle glow effect on hover */
+.nav-button:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+/* Glass effect for containers */
+.glass-container {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* For the dark theme */
+.dark-theme .glass-container {
+    background: rgba(30, 30, 30, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* For the light theme */
+.light-theme .glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Subtle gradient backgrounds */
+.premium-gradient {
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.1) 0%, rgba(100, 100, 100, 0.1) 100%);
+}
+
+/* Neon highlights for important elements */
+.neon-highlight {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5), 0 0 10px rgba(255, 0, 0, 0.3), 0 0 20px rgba(255, 0, 0, 0.1);
+}
+
+/* Subtle texture overlay for backgrounds */
+.texture-overlay {
+    position: relative;
+}
+
+.texture-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDEtMzFUMTQ6NDk6MzktMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTAxLTMxVDE0OjQ5OjU2LTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTAxLTMxVDE0OjQ5OjU2LTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmFhYWFiNjY0LWE2NDEtNDk1Ni1hZTM2LTM3OGMzOWI5NzY1YSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDphYWFhYjY2NC1hNjQxLTQ5NTYtYWUzNi0zNzhjMzliOTc2NWEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphYWFhYjY2NC1hNjQxLTQ5NTYtYWUzNi0zNzhjMzliOTc2NWEiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmFhYWFiNjY0LWE2NDEtNDk1Ni1hZTM2LTM3OGMzOWI5NzY1YSIgc3RFdnQ6d2hlbj0iMjAxOS0wMS0zMVQxNDo0OTozOS0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+HHXXmwAAAGhJREFUaN7t1rENgDAMRdGwBDvBGJ6DHWAHjx7TUFBEQZEiTD49yb2VX6IKuoOKA5KOAQxgAAM40oDiBj0TE+t5PqvsEV2SAAAAAAAAAAAAWCC1v+uJgxhV7nfTQQxgAAMYwDk/cDdW4wRwPPPQAAAAAElFTkSuQmCC');
+    opacity: 0.03;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Subtle shine effect for cards */
+.card-shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-shine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    transform: rotate(30deg);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card-shine:hover::after {
+    opacity: 1;
+}
