@@ -1,3 +1,9 @@
+# Permissions required for the workflow
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  
 # Name of the workflow
 name: Build and Deploy Hugo Site
 run-name: Hugo build & deploy
@@ -9,11 +15,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Permissions required for the workflow
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+
 
 # What to do when the workflow is triggered (parallelism is also possible)
 jobs:
