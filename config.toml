@@ -1,6 +1,6 @@
 baseURL = "https://yourusername.github.io/"
 languageCode = "en-us"
-title = "ph1z3r | Security Researcher"
+title = "ph1z3r"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
@@ -9,7 +9,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   tag = "tags"
 
 [params]
-  description = "Portfolio website of a security researcher focusing on cybersecurity, penetration testing, and vulnerability research."
+  description = "Projects  website of a security researcher focusing on cybersecurity, penetration testing, and vulnerability research."
   author = "Your Name"
   github = "https://github.com/yourusername"
   twitter = "https://twitter.com/yourusername"
@@ -29,7 +29,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     weight = 2
     pre = "<i class=\"fas fa-user\"></i>"
   [[menu.main]]
-    name = "Portfolio"
+    name = "Projects "
     url = "/portfolio/"
     weight = 3
     pre = "<i class=\"fas fa-code\"></i>"

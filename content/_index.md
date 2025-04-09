@@ -1,5 +1,5 @@
 ---
-title: "Security Researcher Portfolio"
+title: "Security Researcher Projects "
 date: 2023-01-01T00:00:00-00:00
 draft: false
 ---

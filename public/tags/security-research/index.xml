@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security Research on ph1z3r | Security Researcher</title>
-    <link>http://localhost:5000/tags/security-research/</link>
-    <description>Recent content in Security Research on ph1z3r | Security Researcher</description>
+    <title>Security Research on ph1z3r</title>
+    <link>http://localhost:1313/tags/security-research/</link>
+    <description>Recent content in Security Research on ph1z3r</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5000/tags/security-research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/security-research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring Windows Security: A New Journey</title>
-      <link>http://localhost:5000/blog/exploring-windows-security/</link>
+      <link>http://localhost:1313/blog/exploring-windows-security/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5000/blog/exploring-windows-security/</guid>
-      <description>Exploring Windows Security: A New Journey Welcome to the Windows Security section of my blog! This is where I’ll explore the intricacies of Windows internals, common attack vectors, and defensive techniques.&#xA;What to Expect Here, I’ll be posting about:&#xA;Windows Internals: Deep dives into how Windows components work Offensive Techniques: Red team tactics like privilege escalation and persistence Defensive Strategies: Blue team methods, EDR evasion analysis, and hardening guides Detection &amp;amp; Response: Writing Sigma rules, analyzing logs, and using tools like Sysmon Responsible Disclosure Reminder Any vulnerabilities I find related to Windows or associated tools will be disclosed responsibly:</description>
+      <guid>http://localhost:1313/blog/exploring-windows-security/</guid>
+      <description>&lt;h1 id=&#34;exploring-windows-security-a-new-journey&#34;&gt;Exploring Windows Security: A New Journey&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to the Windows Security section of my blog! This is where I’ll explore the intricacies of Windows internals, common attack vectors, and defensive techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Here, I’ll be posting about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows Internals&lt;/strong&gt;: Deep dives into how Windows components work&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Offensive Techniques&lt;/strong&gt;: Red team tactics like privilege escalation and persistence&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Defensive Strategies&lt;/strong&gt;: Blue team methods, EDR evasion analysis, and hardening guides&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Detection &amp;amp; Response&lt;/strong&gt;: Writing Sigma rules, analyzing logs, and using tools like Sysmon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;responsible-disclosure-reminder&#34;&gt;Responsible Disclosure Reminder&lt;/h2&gt;&#xA;&lt;p&gt;Any vulnerabilities I find related to Windows or associated tools will be disclosed responsibly:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to My Security Research Blog</title>
-      <link>http://localhost:5000/blog/welcome-post/</link>
+      <link>http://localhost:1313/blog/welcome-post/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5000/blog/welcome-post/</guid>
-      <description>Welcome to My Security Research Blog Hello and welcome to my security research blog! This is where I&amp;rsquo;ll be sharing my findings, tutorials, and thoughts on various cybersecurity topics.&#xA;What to Expect On this blog, you&amp;rsquo;ll find:&#xA;Vulnerability Research: Detailed write-ups of vulnerabilities I&amp;rsquo;ve discovered Technical Tutorials: Step-by-step guides on security tools and techniques Security Analysis: Reviews of recent security incidents and how they could have been prevented Tool Development: Insights into security tools I&amp;rsquo;m developing My Approach to Responsible Disclosure I&amp;rsquo;m a firm believer in responsible disclosure.</description>
+      <guid>http://localhost:1313/blog/welcome-post/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-security-research-blog&#34;&gt;Welcome to My Security Research Blog&lt;/h1&gt;&#xA;&lt;p&gt;Hello and welcome to my security research blog! This is where I&amp;rsquo;ll be sharing my findings, tutorials, and thoughts on various cybersecurity topics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;On this blog, you&amp;rsquo;ll find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vulnerability Research&lt;/strong&gt;: Detailed write-ups of vulnerabilities I&amp;rsquo;ve discovered&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical Tutorials&lt;/strong&gt;: Step-by-step guides on security tools and techniques&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security Analysis&lt;/strong&gt;: Reviews of recent security incidents and how they could have been prevented&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tool Development&lt;/strong&gt;: Insights into security tools I&amp;rsquo;m developing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-approach-to-responsible-disclosure&#34;&gt;My Approach to Responsible Disclosure&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a firm believer in responsible disclosure. When I discover vulnerabilities in software or systems, I follow these principles:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
