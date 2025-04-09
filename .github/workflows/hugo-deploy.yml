@@ -1,25 +1,31 @@
-name: Deploy Hugo site to GitHub Pages
+# Name of the workflow
+name: Build the Hugo website
+run-name: Hugo build
 
+# List of events that trigger the workflow
 on:
   push:
-    branches:
-      - main  # Set a branch to deploy from
-  pull_request:
+    branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
+
+# What to do when the workflow is triggered (parallelism is also possible)
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: macos-13
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      -
+        uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: recursive
+          fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+      -
+        name: Install hugo via brew
+        run: brew install hugo
 
       - name: Build
         run: hugo --minify
