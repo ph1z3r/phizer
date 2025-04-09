@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="content-container">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ .Content }}
+    
+    <div class="portfolio-grid">
+        {{ range .Pages.ByWeight }}
+        <div class="portfolio-item">
+            <div class="portfolio-content">
+                <h2 class="project-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <div class="project-description">{{ .Description }}</div>
+                
+                {{ if .Params.technologies }}
+                <div class="project-tech">
+                    {{ range .Params.technologies }}
+                    <span class="tech-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+                
+                <div class="project-links">
+                    {{ if .Params.projectUrl }}
+                    <a href="{{ .Params.projectUrl }}" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                    {{ end }}
+                    
+                    {{ if .Params.repoUrl }}
+                    <a href="{{ .Params.repoUrl }}" class="repo-link" target="_blank" rel="noopener noreferrer">View Source</a>
+                    {{ end }}
+                </div>
+                
+                <a href="{{ .Permalink }}" class="read-more">Learn More →</a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,57 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "ph1z3r | Security Researcher"
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Portfolio website of a security researcher focusing on cybersecurity, penetration testing, and vulnerability research."
+  author = "Your Name"
+  github = "https://github.com/yourusername"
+  twitter = "https://twitter.com/yourusername"
+  linkedin = "https://linkedin.com/in/yourusername"
+  email = "your.email@example.com"
+  defaultTheme = "dark" # dark or light
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    pre = "<i class=\"fas fa-home\"></i>"
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+    pre = "<i class=\"fas fa-user\"></i>"
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 3
+    pre = "<i class=\"fas fa-code\"></i>"
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+    pre = "<i class=\"fas fa-book\"></i>"
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+    pre = "<i class=\"fas fa-envelope\"></i>"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

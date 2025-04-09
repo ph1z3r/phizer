@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <img src="/favicon.png" alt="ph1z3r logo" class="loader-logo">
+        </div>
+        <div class="loading-text">
+            Loading<span>.</span><span>.</span><span>.</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        {{ partial "header.html" . }}
+        
+        <main class="main-content">
+            {{ block "main" . }}{{ end }}
+        </main>
+        
+        {{ partial "footer.html" . }}
+    </div>
+    
+    <script src="/js/theme-switcher.js"></script>
+    <script src="/js/page-loader.js"></script>
+    <script src="/js/mobile-navigation.js"></script>
+</body>
+</html>

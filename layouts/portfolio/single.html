@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="content-container">
+    <article class="project">
+        <header class="project-header">
+            <h1 class="project-title">{{ .Title }}</h1>
+            
+            {{ if .Params.technologies }}
+            <div class="project-tech">
+                {{ range .Params.technologies }}
+                <span class="tech-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+            
+            <div class="project-links">
+                {{ if .Params.projectUrl }}
+                <a href="{{ .Params.projectUrl }}" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                {{ end }}
+                
+                {{ if .Params.repoUrl }}
+                <a href="{{ .Params.repoUrl }}" class="repo-link" target="_blank" rel="noopener noreferrer">View Source</a>
+                {{ end }}
+            </div>
+        </header>
+        
+        <div class="project-content">
+            {{ .Content }}
+        </div>
+        
+        <footer class="project-footer">
+            <div class="project-nav">
+                {{ with .PrevInSection }}
+                <a href="{{ .Permalink }}" class="prev-project">← {{ .Title }}</a>
+                {{ end }}
+                
+                {{ with .NextInSection }}
+                <a href="{{ .Permalink }}" class="next-project">{{ .Title }} →</a>
+                {{ end }}
+            </div>
+            
+            <a href="/portfolio/" class="back-to-portfolio">Back to Portfolio</a>
+        </footer>
+    </article>
+</div>
+{{ end }}

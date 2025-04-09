@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Researcher Portfolio on ph1z3r | Security Researcher</title>
+    <link>http://localhost:5000/</link>
+    <description>Recent content in Security Researcher Portfolio on ph1z3r | Security Researcher</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5000/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Application Vulnerability Scanner</title>
+      <link>http://localhost:5000/portfolio/project-1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/portfolio/project-1/</guid>
+      <description>Web Application Vulnerability Scanner Project Overview This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&#xA;Key Features Comprehensive Coverage: Tests for the OWASP Top 10 vulnerabilities Low False Positives: Advanced verification techniques to minimize false positives Detailed Reporting: Generates comprehensive HTML and PDF reports CI/CD Integration: Can be integrated into development pipelines Customizable Rules: Extend with your own vulnerability detection rules Technical Implementation The scanner is built with Python and uses a modular architecture to allow for easy extension.</description>
+    </item>
+    <item>
+      <title>IoT Firmware Security Analysis Framework</title>
+      <link>http://localhost:5000/portfolio/project-2/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/portfolio/project-2/</guid>
+      <description>IoT Firmware Security Analysis Framework Project Overview This framework provides a comprehensive solution for analyzing IoT device firmware for security vulnerabilities. It automates the extraction, analysis, and reporting process to quickly identify common security issues in embedded systems.&#xA;Key Features Firmware Extraction: Automated extraction of filesystem from various firmware formats Static Analysis: Identification of hardcoded credentials, encryption keys, and vulnerable functions Dynamic Analysis: Emulation environment for runtime testing Vulnerability Detection: Automated detection of common IoT vulnerabilities Reporting: Detailed reports with vulnerability explanations and remediation suggestions Technical Details The framework combines reverse engineering tools with custom analysis scripts to provide deep insights into IoT firmware security.</description>
+    </item>
+    <item>
+      <title>Exploring Windows Security: A New Journey</title>
+      <link>http://localhost:5000/blog/exploring-windows-security/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/blog/exploring-windows-security/</guid>
+      <description>Exploring Windows Security: A New Journey Welcome to the Windows Security section of my blog! This is where I’ll explore the intricacies of Windows internals, common attack vectors, and defensive techniques.&#xA;What to Expect Here, I’ll be posting about:&#xA;Windows Internals: Deep dives into how Windows components work Offensive Techniques: Red team tactics like privilege escalation and persistence Defensive Strategies: Blue team methods, EDR evasion analysis, and hardening guides Detection &amp;amp; Response: Writing Sigma rules, analyzing logs, and using tools like Sysmon Responsible Disclosure Reminder Any vulnerabilities I find related to Windows or associated tools will be disclosed responsibly:</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:5000/about/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/about/</guid>
+      <description>About Me I am a cybersecurity professional with extensive experience in penetration testing, vulnerability research, and security consulting. My passion lies in finding and fixing security vulnerabilities before they can be exploited by malicious actors.&#xA;Experience Senior Security Researcher at Security Firm (2020-Present)&#xA;Leading penetration testing engagements Conducting vulnerability research Developing security tools Penetration Tester at Tech Company (2017-2020)&#xA;Performed web application security assessments Network penetration testing Security code reviews Certifications Offensive Security Certified Professional (OSCP) Certified Ethical Hacker (CEH) GIAC Web Application Penetration Tester (GWAPT) Skills Web Application Security Network Security Exploit Development Reverse Engineering Malware Analysis Security Tool Development Technical Writing Speaking Engagements I regularly speak at security conferences including:</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:5000/contact/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/contact/</guid>
+      <description>Get in Touch I&amp;rsquo;m always open to discussing new projects, security research opportunities, or potential collaborations.&#xA;Contact Information Email: your.email@example.com GitHub: GitHub Profile Twitter: Twitter Profile LinkedIn: LinkedIn Profile PGP Key For secure communications, please use my PGP public key:</description>
+    </item>
+    <item>
+      <title>Welcome to My Security Research Blog</title>
+      <link>http://localhost:5000/blog/welcome-post/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/blog/welcome-post/</guid>
+      <description>Welcome to My Security Research Blog Hello and welcome to my security research blog! This is where I&amp;rsquo;ll be sharing my findings, tutorials, and thoughts on various cybersecurity topics.&#xA;What to Expect On this blog, you&amp;rsquo;ll find:&#xA;Vulnerability Research: Detailed write-ups of vulnerabilities I&amp;rsquo;ve discovered Technical Tutorials: Step-by-step guides on security tools and techniques Security Analysis: Reviews of recent security incidents and how they could have been prevented Tool Development: Insights into security tools I&amp;rsquo;m developing My Approach to Responsible Disclosure I&amp;rsquo;m a firm believer in responsible disclosure.</description>
+    </item>
+  </channel>
+</rss>

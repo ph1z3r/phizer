@@ -1,0 +1,68 @@
+{{ define "main" }}
+<div class="content-container">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            <div class="post-meta">
+                <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                {{ if .Params.categories }}
+                <div class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    {{ range .Params.categories }}
+                    <a href="/categories/{{ . | urlize }}/" class="category">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+                
+                {{ if .Params.tags }}
+                <div class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    {{ range .Params.tags }}
+                    <a href="/tags/{{ . | urlize }}/" class="tag">#{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </header>
+        
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        
+        <!-- Post Reactions -->
+        <div class="post-reactions">
+            <h3>What did you think?</h3>
+            <div class="reactions-container">
+                <button class="reaction-btn like" data-post-id="{{ .File.UniqueID }}">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="reaction-text">Like</span>
+                    <span class="reaction-count">0</span>
+                </button>
+                <button class="reaction-btn dislike" data-post-id="{{ .File.UniqueID }}">
+                    <i class="fas fa-thumbs-down"></i>
+                    <span class="reaction-text">Dislike</span>
+                    <span class="reaction-count">0</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Post Navigation -->
+        <div class="post-navigation">
+            {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}" class="nav-prev">
+                <i class="fas fa-arrow-left"></i> Previous: {{ .Title }}
+            </a>
+            {{ end }}
+            
+            {{ with .NextInSection }}
+            <a href="{{ .Permalink }}" class="nav-next">
+                Next: {{ .Title }} <i class="fas fa-arrow-right"></i>
+            </a>
+            {{ end }}
+        </div>
+    </article>
+</div>
+
+<!-- Load reactions.js script -->
+<script src="/js/reactions.js"></script>
+{{ end }}

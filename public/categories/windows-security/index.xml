@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Security on ph1z3r | Security Researcher</title>
+    <link>http://localhost:5000/categories/windows-security/</link>
+    <description>Recent content in Windows Security on ph1z3r | Security Researcher</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5000/categories/windows-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Windows Security: A New Journey</title>
+      <link>http://localhost:5000/blog/exploring-windows-security/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/blog/exploring-windows-security/</guid>
+      <description>Exploring Windows Security: A New Journey Welcome to the Windows Security section of my blog! This is where I’ll explore the intricacies of Windows internals, common attack vectors, and defensive techniques.&#xA;What to Expect Here, I’ll be posting about:&#xA;Windows Internals: Deep dives into how Windows components work Offensive Techniques: Red team tactics like privilege escalation and persistence Defensive Strategies: Blue team methods, EDR evasion analysis, and hardening guides Detection &amp;amp; Response: Writing Sigma rules, analyzing logs, and using tools like Sysmon Responsible Disclosure Reminder Any vulnerabilities I find related to Windows or associated tools will be disclosed responsibly:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Research Portfolio on ph1z3r | Security Researcher</title>
+    <link>http://localhost:5000/portfolio/</link>
+    <description>Recent content in Security Research Portfolio on ph1z3r | Security Researcher</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5000/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Application Vulnerability Scanner</title>
+      <link>http://localhost:5000/portfolio/project-1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/portfolio/project-1/</guid>
+      <description>Web Application Vulnerability Scanner Project Overview This open-source tool automates the detection of common web application vulnerabilities, including those from the OWASP Top 10 such as SQL injection, XSS, and CSRF.&#xA;Key Features Comprehensive Coverage: Tests for the OWASP Top 10 vulnerabilities Low False Positives: Advanced verification techniques to minimize false positives Detailed Reporting: Generates comprehensive HTML and PDF reports CI/CD Integration: Can be integrated into development pipelines Customizable Rules: Extend with your own vulnerability detection rules Technical Implementation The scanner is built with Python and uses a modular architecture to allow for easy extension.</description>
+    </item>
+    <item>
+      <title>IoT Firmware Security Analysis Framework</title>
+      <link>http://localhost:5000/portfolio/project-2/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5000/portfolio/project-2/</guid>
+      <description>IoT Firmware Security Analysis Framework Project Overview This framework provides a comprehensive solution for analyzing IoT device firmware for security vulnerabilities. It automates the extraction, analysis, and reporting process to quickly identify common security issues in embedded systems.&#xA;Key Features Firmware Extraction: Automated extraction of filesystem from various firmware formats Static Analysis: Identification of hardcoded credentials, encryption keys, and vulnerable functions Dynamic Analysis: Emulation environment for runtime testing Vulnerability Detection: Automated detection of common IoT vulnerabilities Reporting: Detailed reports with vulnerability explanations and remediation suggestions Technical Details The framework combines reverse engineering tools with custom analysis scripts to provide deep insights into IoT firmware security.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+{{ define "main" }}
+<div class="home-content">
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="/images/profile.png" alt="Security Researcher Profile" class="profile-image">
+            </div>
+            <div class="hero-text">
+                {{ .Content }}
+            </div>
+        </div>
+    </section>
+    
+    <section class="featured-projects">
+        <h2>Featured Projects</h2>
+        <div class="portfolio-grid">
+            {{ range where (where .Site.RegularPages "Section" "portfolio") "Params.featured" true | first 3 }}
+            <div class="portfolio-item">
+                <div class="portfolio-content">
+                    <h3 class="project-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <div class="project-description">{{ .Description }}</div>
+                    
+                    {{ if .Params.technologies }}
+                    <div class="project-tech">
+                        {{ range .Params.technologies }}
+                        <span class="tech-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    
+                    <a href="{{ .Permalink }}" class="read-more">Learn More →</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="view-all">
+            <a href="/portfolio/" class="btn">View All Projects</a>
+        </div>
+    </section>
+    
+    <section class="recent-posts">
+        <h2>Recent Blog Posts</h2>
+        <div class="posts-list">
+            {{ range first 3 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+            <div class="post-item">
+                <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                </div>
+                <div class="post-summary">
+                    {{ if .Description }}
+                        {{ .Description }}
+                    {{ else }}
+                        {{ .Summary }}
+                    {{ end }}
+                </div>
+                <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+            </div>
+            {{ end }}
+        </div>
+        <div class="view-all">
+            <a href="/blog/" class="btn">View All Posts</a>
+        </div>
+    </section>
+</div>
+{{ end }}

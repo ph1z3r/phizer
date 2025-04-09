@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="content-container">
+    <article class="blog-post">
+        <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            <div class="post-meta">
+                <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                
+                {{ if .Params.categories }}
+                <span class="post-categories">
+                    Categories: 
+                    {{ range .Params.categories }}
+                    <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </span>
+                {{ end }}
+                
+                {{ if .Params.tags }}
+                <span class="post-tags">
+                    Tags: 
+                    {{ range .Params.tags }}
+                    <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+        </header>
+        
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        
+        <footer class="post-footer">
+            <div class="post-share">
+                <span>Share this post:</span>
+                <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}

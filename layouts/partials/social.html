@@ -1,0 +1,25 @@
+<div class="social-links">
+    {{ with .Site.Params.github }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+        <i class="fab fa-github"></i>
+    </a>
+    {{ end }}
+    
+    {{ with .Site.Params.twitter }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+        <i class="fab fa-twitter"></i>
+    </a>
+    {{ end }}
+    
+    {{ with .Site.Params.linkedin }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    {{ end }}
+    
+    {{ with .Site.Params.email }}
+    <a href="mailto:{{ . }}" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+    {{ end }}
+</div>
